@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+  font-family: fatboi;
+  font-weight: 700;
+  font-size: 60px;
+
+}
+p {
+  padding: 10px;
+  text-align: center;
+  font-family: lightboi;
+  font-weight: 300;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+h2 {
+  padding: 10px;
+  text-align: center;
+  font-family: fatboi;
+  font-size: 34px;
+  font-weight: 700;
+
+}
+nav {
+  background-color: #d9e3cd;
+  color: #417505;
+}
+header {
+  background-color: #d9e3cd;
+  color: #417505;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/title.ttf);
+}
+@font-face {
+    font-family: lightboi;
+    src: url(fonts/AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: fatboi;
+    src: url(fonts/AEH.ttf);
+}
+.navbar-brand {
+  font-family: myFirstFont;
+  font-weight: bolder;
+  color: #417505;
+  font-size: 80px;
+  padding-left: 200px;
+}
+.nav-link {
+  font-family: lightboi;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #417505;.
+}
+.nav-item {
+  padding-left: 100px;
+}
+.button-filled {
+    border: 5px solid;
+    border-color: #d0141b;
+    border-radius: 25px;
+    background-color: #d0141b;
+    color: white;
+    font-family: fatboi;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.button-empty {
+    border: 5px solid;
+    border-color: #d0141b;
+    border-radius: 25px;
+    background-color: Transparent;
+    color: #d0141b;
+    font-family: fatboi;
+    font-weight: bold;
+    font-size: 25px;
+}
+#nav-last {
+  padding-right: 200px;
+}
+#pizza {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  padding: 20px;
+}
+#header-buttons {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
